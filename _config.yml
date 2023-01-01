@@ -1,8 +1,9 @@
 title: Duncan Mearns
 email: dm3169@princeton.edu
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Personal website
 baseurl: ""
-url: "http://duncanmearns.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://duncanmearns.github.io"
 twitter_username: duncan_mearns
 github_username:  DuncanMearns
+theme: minima
