@@ -29,3 +29,7 @@ music:
 - {title: 'Ballade No. 2', url: '', instrument: 'Piano Solo', year: '2020', description: 'also written during the pandemic'}
 - {title: 'Spider Fugue', url: '/music/spider_fugue.pdf', instrument: 'Piano Solo', year: '2021', description: 'my first attempt at a fugue'}
 - {title: 'Wave Function Collapse', url: '/music/wave_function_collapse.pdf', instrument: 'Cello & Piano', year: '2022', description: 'written for M.A.K.'}
+
+music-early:
+- {title: 'Waltz in C Minor', url: '/music/c_minor_waltz.pdf', instrument: 'Piano Solo', year: '~2008', description: 'my first composition'}
+- {title: 'Nocturne in F Minor', url: '/music/nocturne.pdf', instrument: 'Piano Solo', year: '~2010?', description: ''}
