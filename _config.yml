@@ -1,21 +1,6 @@
 # Site settings
 title: Duncan Mearns
-email: dm3169@princeton.edu
 description: >-
-  Personal website of Duncan Mearns, PhD.
+  Behavior - Circuits - Evolution - Music
 baseurl: ""
-url: "http://duncanmearns.github.io"  # http://duncanmearns.github.io
-twitter_username: duncan_mearns
-github_username:  DuncanMearns
-
-# Build settings
-theme: minima
-
-# Headers
-header_pages:
-  - pages/research.md
-  - pages/publications.md
-  - pages/code.md
-  - pages/cv.md
-  - pages/music.md
-  - pages/contact.md
+url: ""  # http://duncanmearns.github.io

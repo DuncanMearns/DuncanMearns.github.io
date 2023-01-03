@@ -1,4 +1,4 @@
 ---
-layout: page
-title: "CV"
+layout: cv
+title: "Curriculum Vitae"
 ---

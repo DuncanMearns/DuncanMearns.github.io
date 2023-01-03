@@ -1,0 +1,24 @@
+menu:
+- {name: 'Research', url: '/pages/research'}
+- {name: 'Publications', url: '/pages/publications'}
+- {name: 'Code', url: '/pages/code'}
+- {name: 'CV', url: '/pages/cv'}
+- {name: 'Music', url: '/pages/music'}
+- {name: 'Contact', url: '/pages/contact'}
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/duncan_mearns'}
+- {icon: 'github', link: 'https://github.com/DuncanMearns'}
+- {icon: 'instagram', link: 'https://instagram.com/drdrunkin'}
+
+contact:
+- name: 'Duncan Mearns, PhD'
+  title: 'Associate Research Scholar'
+  institution: 'Princeton Neuroscience Institute'
+  institution_url: 'https://pni.princeton.edu/'
+  address1: 'Washington Road'
+  address2: 'Princeton, NJ 08544'
+  phone: 'TBD'
+  email: 'dm3169@princeton.edu'
+  office: 'A92H PNI'
+  image: 'assets/img/mugshot.jpg'

@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 # # Local testing
 # gem "jekyll", "~> 4.3.1"
-# gem "minima", "~> 2.5"
 
 # Github
 gem "github-pages", group: :jekyll_plugins

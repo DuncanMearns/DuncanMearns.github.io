@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+{% for section in site.data.research %}
+<div class="row g-5 mb-3 border-bottom pb-3">
+    {% capture thecycle %}{% cycle "odd", "even" %}{% endcapture %}
+    {% if thecycle == "odd" %}
+    <div class="col-md-9">
+            <h4>{{ section.title }}</h4>
+            <p>{{ section.content }}</p>
+        </div>
+        <div class="col-md-3">
+            <img src="{{ site.github.url }}{{ section.image }}" alt="Research" width="100%">
+        </div>
+    {% elsif thecycle == "even" %}
+        <div class="col-md-3">
+            <img src="{{ site.github.url }}{{ section.image }}" alt="Research" width="100%">
+        </div>
+        <div class="col-md-9">
+            <h4>{{ section.title }}</h4>
+            <p>{{ section.content }}</p>
+        </div>
+    {% endif %}
+</div>
+{% endfor %}

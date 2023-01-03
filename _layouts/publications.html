@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{% for item in site.data.publications %}
+    <p>
+    <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+    <br>{{ item.authors }}
+    <br><i>{{ item.journal }}</i>
+    {% if item.pdf != nil %}
+        <br>PDF available <a href="{{ item.pdf }}" target="_blank">here</a>.
+    {% endif %}
+    {% if item.biorxiv != nil %}
+        <br>Preprint available on <a href="{{ item.biorxiv }}" target="_blank">biorxiv</a>.
+    {% endif %}
+    </p>
+{% endfor %}
