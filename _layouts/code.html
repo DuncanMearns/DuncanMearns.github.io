@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<div class="row mb-3 border-bottom pb-3">
+    {{ content }}
+</div>
+{% assign github_url = site.data.settings.social.github.link %}
+{% for project in site.data.settings.code-repositories %}
+<div class="row mb-3 border-bottom pb-3">
+    <h4>{{ project.title }}</h4>
+    <p>
+        Source: <a href="{{ github_url }}/{{ project.repo }}" target="_blank">{{ github_url }}/{{ project.repo }}</a>
+    </p>
+    <p>
+        {{ project.description }}
+    </p>
+</div>
+{% endfor %}

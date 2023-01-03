@@ -7,12 +7,14 @@ menu:
 - {name: 'Contact', url: '/pages/contact'}
 
 social:
-- {icon: 'twitter', link: 'https://twitter.com/duncan_mearns'}
-- {icon: 'github', link: 'https://github.com/DuncanMearns'}
-- {icon: 'instagram', link: 'https://instagram.com/drdrunkin'}
+  twitter: {icon: 'twitter', link: 'https://twitter.com/duncan_mearns'}
+  scholar: {icon: 'mortar-board', link: 'https://scholar.google.com/citations?user=kgB3M1EAAAAJ&hl=en'}
+  orcid: {icon: 'orcid', link: 'https://orcid.org/0000-0002-3817-1919'}
+  github: {icon: 'github', link: 'https://github.com/DuncanMearns'}
+  instagram: {icon: 'instagram', link: 'https://instagram.com/drdrunkin'}
 
 contact:
-- name: 'Duncan Mearns, PhD'
+  name: 'Duncan Mearns, PhD'
   title: 'Associate Research Scholar'
   institution: 'Princeton Neuroscience Institute'
   institution_url: 'https://pni.princeton.edu/'
@@ -33,3 +35,11 @@ music:
 music-early:
 - {title: 'Waltz in C Minor', url: '/music/c_minor_waltz.pdf', instrument: 'Piano Solo', year: '~2008', description: 'my first composition'}
 - {title: 'Nocturne in F Minor', url: '/music/nocturne.pdf', instrument: 'Piano Solo', year: '~2010?', description: ''}
+
+code-repositories:
+  - {title: 'Ethomap', repo: 'ethomap', description: 'Description goes here'}
+  - {title: 'Pydra', repo: 'pydra', description: 'Lorem ipsum'}
+  - {title: 'This site', repo: 'DuncanMearns.github.io', description: 
+  'I built this site using Jekyll using  
+  <a href="https://lenpaul.github.io/academic/" target="_blank">this theme</a>
+  as a template.'}
