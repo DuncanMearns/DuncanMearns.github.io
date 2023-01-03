@@ -1,0 +1,32 @@
+---
+layout: page
+title: "Music"
+---
+
+<div class="row mb-3 border-bottom pb-3">
+    <h4>Piano</h4>
+    <p> I have played piano for more than 20 years, and was taught by the late Margaret Charles in my hometown of Aberdeen. 
+        While at university, I was chairman of the Pembroke College Music Society from 2011-2012. I have performed regularly 
+        as a soloist and accompanist since my school years, including at the Aberdeen Music Festival (where I won an award for 
+        best pianist in 2008), regular recitals at university, performances at graduation ceremonies, and other 
+        one-off recitals. I love making music with others, so please feel free to get in touch if you want to play together 
+        (see <a href="/pages/contact">contact</a>). I am classically trained, but I also enjoy playing film and tv music - 
+        and I'm trying to learn jazz!</p>
+</div>
+<div class="row">
+    <h4>Composition</h4>
+    <p>
+        Although I have no formal training in composition, I have been writing music as a hobby since I was in highschool. 
+        You can find examples of my work below. I write music using <a href="https://musescore.org/en" target="_blank">Musescore</a>,
+        a free and powerful music engraving software, which I highly recommend.
+    </p>
+    <h5>Works</h5>
+    {% for work in site.data.settings.music %}
+    <menu>
+        <li>
+            <a href="{{ work.url }}" target="_blank">{{ work.title }}</a> ({{ work.year }}) | {{ work.instrument }}
+            {% if work.description != '' %}- {{ work.description }}{% endif %}
+        </li>
+    </menu>
+    {% endfor %}
+</div>
