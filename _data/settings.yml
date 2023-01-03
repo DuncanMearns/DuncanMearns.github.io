@@ -24,9 +24,9 @@ contact:
   image: 'assets/img/mugshot.jpg'
 
 music:
-- {title: 'Ballade No. 1', url: '/music/ballade_no_1.pdf', instrument: 'Piano Solo', year: '2019', description: ''}
-- {title: 'Alone', url: '/music/alone.pdf', instrument: 'Piano Solo', year: '2020', description: 'impromptu written during the COVID19 pandemic'}
-- {title: 'Ballade No. 2', url: '', instrument: 'Piano Solo', year: '2020', description: 'also written during the pandemic'}
+- {title: 'Impromptu No. 1', url: '/music/impromptu_no_1.pdf', instrument: 'Piano Solo', year: '2019', description: ''}
+- {title: 'Alone', url: '/music/alone.pdf', instrument: 'Piano Solo', year: '2020', description: 'prelude written during the COVID19 pandemic'}
+- {title: 'Ballade No. 1', url: '/music/ballade_no_1.pdf', instrument: 'Piano Solo', year: '2020', description: 'written during the pandemic'}
 - {title: 'Spider Fugue', url: '/music/spider_fugue.pdf', instrument: 'Piano Solo', year: '2021', description: 'my first attempt at a fugue'}
 - {title: 'Wave Function Collapse', url: '/music/wave_function_collapse.pdf', instrument: 'Cello & Piano', year: '2022', description: 'written for M.A.K.'}
 
