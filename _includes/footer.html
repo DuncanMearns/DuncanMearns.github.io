@@ -3,7 +3,7 @@
     <div class="col-md-6 text-end social-media-icons">
       {% for item in site.data.settings.social %}
         {% assign params = item[1] %}
-        <a href="{{ params.link }}" target="_blank" class="ms-3 fs-5"><i class="fab fa-{{ params.icon }}"></i></a>
+        <a href="{{ params.link }}" target="_blank" class="ms-3 fs-5"><i class="{{ params.prefix }}-{{ params.icon }}"></i></a>
       {% endfor %}
     </div>
   </div>

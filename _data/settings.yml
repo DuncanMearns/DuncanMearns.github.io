@@ -7,11 +7,11 @@ menu:
 - {name: 'Contact', url: '/pages/contact'}
 
 social:
-  twitter: {icon: 'twitter', link: 'https://twitter.com/duncan_mearns'}
-  scholar: {icon: 'mortar-board', link: 'https://scholar.google.com/citations?user=kgB3M1EAAAAJ&hl=en'}
-  orcid: {icon: 'orcid', link: 'https://orcid.org/0000-0002-3817-1919'}
-  github: {icon: 'github', link: 'https://github.com/DuncanMearns'}
-  instagram: {icon: 'instagram', link: 'https://instagram.com/drdrunkin'}
+  twitter: {icon: 'twitter', prefix: 'fab fa', link: 'https://twitter.com/duncan_mearns'}
+  scholar: {icon: 'google-scholar', prefix: 'ai ai', link: 'https://scholar.google.com/citations?user=kgB3M1EAAAAJ&hl=en'}
+  orcid: {icon: 'orcid', prefix: 'fab fa', link: 'https://orcid.org/0000-0002-3817-1919'}
+  github: {icon: 'github', prefix: 'fab fa', link: 'https://github.com/DuncanMearns'}
+  instagram: {icon: 'instagram', prefix: 'fab fa', link: 'https://instagram.com/drdrunkin'}
 
 contact:
   name: 'Duncan Mearns, PhD'
