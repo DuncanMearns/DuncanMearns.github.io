@@ -1,0 +1,9 @@
+<h5>Works</h5>
+{% for work in site.data.settings.music %}
+<menu>
+    <li>
+        <a href="{{ work.url }}" target="_blank">{{ work.title }}</a> ({{ work.year }}) | {{ work.instrument }}
+        {% if work.description != '' %}- {{ work.description }}{% endif %}
+    </li>
+</menu>
+{% endfor %}

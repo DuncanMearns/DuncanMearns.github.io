@@ -1,6 +1,29 @@
 # Site settings
-title: Duncan Mearns
-description: >-
-  Behavior - Circuits - Evolution - Music
+title: "Duncan Mearns"
+description: "Behavior - Circuits - Evolution - Music"
+url: "http://localhost:4000"  # http://duncanmearns.github.io
 baseurl: ""
-url: "http://duncanmearns.github.io"
+
+include:
+  - _pages
+
+# Collections
+collections_dir: collections
+collections:
+  music:
+    output: false
+    order:
+      - piano.md
+      - composition.md
+  code:
+    output: false
+    order:
+      - ethomap.md
+      - pydra.md
+      - website.md
+  research:
+    output: false
+    order:
+      - ethology.md
+      - evolution.md
+      - circuits.md

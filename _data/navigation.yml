@@ -1,0 +1,18 @@
+main:
+  - title: "Reseach"
+    url: /research/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Code"
+    url: /code/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Music"
+    url: /music/
+
+  - title: "Contact"
+    url: /contact/

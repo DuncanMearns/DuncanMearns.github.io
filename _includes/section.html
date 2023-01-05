@@ -1,0 +1,23 @@
+<div class="row mb-3 border-bottom pb-3">
+    <h4> {{ section.title }} </h4>
+    {% if section.image %}
+        {% capture thecycle %}{% cycle "odd", "even" %}{% endcapture %}
+        {% if thecycle == "odd" %}
+            <div class="col-md-9">
+                <p>{{ section.content }}</p>
+            </div>
+            <div class="col-md-3">
+                <img src="{{ site.github.url }}{{ section.image }}" alt="Research" width="100%">
+            </div>
+        {% else %}
+            <div class="col-md-3">
+                <img src="{{ site.github.url }}{{ section.image }}" alt="Research" width="100%">
+            </div>
+            <div class="col-md-9">
+                <p>{{ section.content }}</p>
+            </div>
+        {% endif %}
+    {% else %}
+        <p>{{ section.content }}</p>
+    {% endif %}
+</div>

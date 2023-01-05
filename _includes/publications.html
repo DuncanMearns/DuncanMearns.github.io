@@ -1,7 +1,4 @@
----
-layout: page
----
-
+<div>
 {% for item in site.data.publications %}
     <p>
     <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
@@ -15,3 +12,4 @@ layout: page
     {% endif %}
     </p>
 {% endfor %}
+</div>
