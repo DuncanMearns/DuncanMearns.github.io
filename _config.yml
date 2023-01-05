@@ -1,7 +1,7 @@
 # Site settings
 title: "Duncan Mearns"
 description: "Behavior - Circuits - Evolution - Music"
-url: ""  # http://duncanmearns.github.io
+url: "http://duncanmearns.github.io"
 baseurl: ""
 
 include:
