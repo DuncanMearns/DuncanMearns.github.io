@@ -10,20 +10,9 @@ include:
 # Collections
 collections_dir: collections
 collections:
-  music:
-    output: false
-    order:
-      - piano.md
-      - composition.md
-  code:
-    output: false
-    order:
-      - ethomap.md
-      - pydra.md
-      - website.md
   research:
     output: false
-    order:
-      - ethology.md
-      - evolution.md
-      - circuits.md
+  code:
+    output: false
+  music:
+    output: false
