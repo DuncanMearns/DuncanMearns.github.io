@@ -1,19 +1,20 @@
 <div class="row mb-3 border-bottom pb-3">
-    <h4> {{ section.title }} </h4>
     {% if section.image %}
         {% capture thecycle %}{% cycle "odd", "even" %}{% endcapture %}
         {% if thecycle == "odd" %}
-            <div class="col-md-9">
-                <p>{{ section.content }}</p>
-            </div>
-            <div class="col-md-3">
-                <img src="{{ base_path }}{{ section.image }}" alt="Research" width="100%">
-            </div>
+        <div class="col-md-8">
+            <h4> {{ section.title }} </h4>
+            <p>{{ section.content }}</p>
+        </div>
+        <div class="col-md-4">
+            <img src="{{ base_path }}{{ section.image }}" alt="Research" width="100%">
+        </div>
         {% else %}
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <img src="{{ base_path }}{{ section.image }}" alt="Research" width="100%">
             </div>
-            <div class="col-md-9">
+            <div class="col-md-8">
+                <h4> {{ section.title }} </h4>
                 <p>{{ section.content }}</p>
             </div>
         {% endif %}
