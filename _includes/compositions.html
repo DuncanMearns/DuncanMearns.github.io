@@ -7,3 +7,12 @@
     </li>
 </menu>
 {% endfor %}
+<h6>High school</h6>
+{% for work in site.data.settings.music-early %}
+<menu>
+    <li>
+        <a href="{{ work.url }}" target="_blank">{{ work.title }}</a> ({{ work.year }}) | {{ work.instrument }}
+        {% if work.description != '' %}- {{ work.description }}{% endif %}
+    </li>
+</menu>
+{% endfor %}

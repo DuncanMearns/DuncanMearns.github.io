@@ -25,5 +25,6 @@ music:
 - {title: 'Wave Function Collapse', url: '/files/music/wave_function_collapse.pdf', instrument: 'Cello & Piano', year: '2022', description: 'written for M.A.K.'}
 
 music-early:
-- {title: 'Waltz in C Minor', url: '/music/c_minor_waltz.pdf', instrument: 'Piano Solo', year: '~2008', description: 'my first composition'}
-- {title: 'Nocturne in F Minor', url: '/music/nocturne.pdf', instrument: 'Piano Solo', year: '~2010?', description: ''}
+- {title: 'Waltz in C Minor', url: '/files/music/waltz_c_minor.pdf', instrument: 'Piano Solo', year: '2008', description: 'my first composition'}
+- {title: 'Nocturne in F Minor', url: '/files/music/nocturne_f_minor.pdf', instrument: 'Piano Solo', year: '2010', description: ''}
+- {title: 'Ballade in B Major', url: '/files/music/ballade_b_major.pdf', instrument: 'Piano Solo', year: '2010', description: 'written for R.S.K.'}
